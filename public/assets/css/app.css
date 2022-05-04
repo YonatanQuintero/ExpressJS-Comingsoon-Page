@@ -1,0 +1,26 @@
+.home-contain-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.header-wrapper {
+    height: 95%;
+    justify-content: space-between;
+    z-index: 10;
+    align-items: center;
+    display: flex;
+    background: rgb(0 0 0 / 40%);
+}
+
+.home-contain-wrapper {
+    background-image: url(https://i.imgur.com/n1mSjLT.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+}
+
+.w-95{
+    width: 95%;
+}
